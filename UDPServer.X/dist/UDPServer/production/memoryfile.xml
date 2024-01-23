@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/UDPServer/production/UDPServer.X.production.elf">
+    <memory name="program">
+      <units>bytes</units>
+      <length>2097152</length>
+      <used>92783</used>
+      <free>2004369</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>393216</length>
+      <used>6609</used>
+      <free>386607</free>
+    </memory>
+  </executable>
+</project>
