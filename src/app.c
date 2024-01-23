@@ -263,9 +263,6 @@ void APP_Tasks ( void )
 
             SYS_CONSOLE_PRINT("RX Buffer has %d bytes in it\n", wMaxGet);
             
-            LED2_Toggle();
-            LED3_Toggle();
-
             // Process all bytes that we can
             // This is implemented as a loop, processing up to sizeof(AppBuffer) bytes at a time.
             // This limits memory usage while maximizing performance.  Single byte Gets and Puts are a lot slower than multibyte GetArrays and PutArrays.
